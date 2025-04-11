@@ -65,7 +65,7 @@ pub fn initialize(app: &NSApplication) {
     let quit_item = menu_item(
         mtm,
         &quit_item_title,
-        Some(sel!(terminate:)),
+        Some(sel!(stop:)),
         Some(KeyEquivalent { key: ns_string!("q"), masks: None }),
     );
 
